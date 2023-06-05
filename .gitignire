@@ -1,0 +1,15 @@
+/*
+
+!src/
+!libs/
+!xmls/
+!pom.xml
+!README.md
+!.gitignore
+!testmodules
+!selenoid
+*.log
+*.iml
+*.ipr
+*.iws
+.allure
