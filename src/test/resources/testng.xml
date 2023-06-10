@@ -3,8 +3,7 @@
 <suite name="Suite Regression" verbose="1" >
     <test name="Regression1">
         <classes>
-           <class name="qa.projects.FirstTest"/>
-            <class name="qa.projects.SecondTest"/>
+            <class name="qa.projects.RozetkaTests"/>
         </classes>
     </test>
 </suite>
