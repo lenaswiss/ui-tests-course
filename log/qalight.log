@@ -1,0 +1,88 @@
+2023-09-06 15:59:58   INFO [qa.projects.RozetkaTests] : Browser was opened
+2023-09-06 20:08:20   INFO [qa.projects.RozetkaPagesTests] : Browser was closed
+2023-09-06 20:09:47   INFO [qa.projects.RozetkaPagesTests] : Browser was closed
+2023-09-06 20:22:11   INFO [qa.projects.RozetkaPagesTests] : Browser was closed
+2023-09-06 20:23:08   INFO [qa.projects.RozetkaPagesTests] : Browser was closed
+2023-09-06 20:26:54   INFO [qa.projects.RozetkaPagesTests] : Browser was closed
+2023-09-06 20:34:53   INFO [qa.projects.RozetkaPagesTests] : Browser was opened
+2023-09-06 20:39:01   INFO [qa.projects.RozetkaPagesTests] : Browser was opened
+2023-09-06 20:39:07   INFO [qa.projects.pages.CatalogPage] : Login Page was opened
+2023-09-06 20:41:29   INFO [qa.projects.RozetkaPagesTests] : Browser was opened
+2023-09-06 20:41:34   INFO [qa.projects.pages.CatalogPage] : Login Page was opened
+2023-09-06 20:41:36   INFO [qa.projects.RozetkaPagesTests] : Browser was closed
+2023-09-06 20:42:51   INFO [qa.projects.RozetkaPagesTests] : Browser was opened
+2023-09-06 20:42:57   INFO [qa.projects.pages.CatalogPage] : Login Page was opened
+2023-09-06 20:42:59   INFO [qa.projects.RozetkaPagesTests] : Browser was closed
+2023-09-06 20:44:20   INFO [qa.projects.RozetkaPagesTests] : Browser was opened
+2023-09-06 20:47:50   INFO [qa.projects.RozetkaPagesTests] : Browser was opened
+2023-09-06 20:48:04   INFO [qa.projects.pages.CatalogPage] : Login Page was opened
+2023-09-06 21:02:02   INFO [qa.projects.pages.CatalogPage] : Login Page was opened
+2023-09-06 21:02:30   INFO [qa.projects.RozetkaPagesTests] : Browser was opened
+2023-09-06 21:02:36   INFO [qa.projects.pages.CatalogPage] : Login Page was opened
+2023-09-06 21:02:37   INFO [qa.projects.RozetkaPagesTests] : Browser was closed
+2023-09-06 21:14:51   INFO [qa.projects.RozetkaPagesTests] : Browser was opened
+2023-09-06 21:14:56   INFO [qa.projects.pages.CatalogPage] : Login Page was opened
+2023-09-06 21:14:59   INFO [qa.projects.RozetkaPagesTests] : Browser was closed
+2023-09-06 21:21:03   INFO [qa.projects.RozetkaPagesTests] : Browser was opened
+2023-09-06 21:21:06   INFO [qa.projects.RozetkaPagesTests] : Browser was closed
+2023-09-06 21:22:08   INFO [qa.projects.RozetkaPagesTests] : Browser was opened
+2023-09-06 21:22:10   INFO [qa.projects.RozetkaPagesTests] : Browser was closed
+2023-09-06 21:22:15   INFO [qa.projects.RozetkaPagesTests] : Browser was opened
+2023-09-06 21:22:17   INFO [qa.projects.pages.CatalogPage] : Login Page was opened
+2023-09-06 21:22:18   INFO [qa.projects.RozetkaPagesTests] : Browser was closed
+2023-09-06 21:24:31   INFO [qa.projects.RozetkaPagesTests] : Browser was opened
+2023-09-06 21:24:33   INFO [qa.projects.RozetkaPagesTests] : Browser was closed
+2023-09-06 21:24:38   INFO [qa.projects.RozetkaPagesTests] : Browser was opened
+2023-09-06 21:25:11   INFO [qa.projects.RozetkaPagesTests] : Browser was opened
+2023-09-06 21:25:13   INFO [qa.projects.RozetkaPagesTests] : Browser was closed
+2023-09-06 21:25:19   INFO [qa.projects.RozetkaPagesTests] : Browser was opened
+2023-09-06 21:27:24   INFO [qa.projects.RozetkaPagesTests] : Browser was opened
+2023-09-06 21:27:27   INFO [qa.projects.RozetkaPagesTests] : Browser was closed
+2023-09-06 21:27:32   INFO [qa.projects.RozetkaPagesTests] : Browser was opened
+2023-09-06 21:27:34   INFO [qa.projects.RozetkaPagesTests] : Browser was closed
+2023-09-06 21:34:01   INFO [qa.projects.RozetkaPagesTests] : Browser was opened
+2023-09-06 21:34:03   INFO [qa.projects.RozetkaPagesTests] : Browser was closed
+2023-09-06 21:34:54   INFO [qa.projects.RozetkaPagesTests] : Browser was opened
+2023-09-06 21:34:56   INFO [qa.projects.RozetkaPagesTests] : Browser was closed
+2023-09-06 21:36:50   INFO [qa.projects.RozetkaPagesTests] : Browser was opened
+2023-09-06 21:36:52   INFO [qa.projects.RozetkaPagesTests] : Browser was closed
+2023-09-06 21:37:46   INFO [qa.projects.RozetkaPagesTests] : Browser was opened
+2023-09-06 21:37:48   INFO [qa.projects.RozetkaPagesTests] : Browser was closed
+2023-09-06 21:37:52   INFO [qa.projects.RozetkaPagesTests] : Browser was opened
+2023-09-06 21:37:54   INFO [qa.projects.RozetkaPagesTests] : Browser was closed
+2023-09-06 21:38:54   INFO [qa.projects.RozetkaPagesTests] : Browser was opened
+2023-09-06 21:38:58   INFO [qa.projects.pages.BasePage] : Login Page was opened
+2023-09-06 21:39:00   INFO [qa.projects.RozetkaPagesTests] : Browser was closed
+2023-09-06 21:39:04   INFO [qa.projects.RozetkaPagesTests] : Browser was opened
+2023-09-06 21:39:08   INFO [qa.projects.pages.CatalogPage] : Login Page was opened
+2023-09-06 21:39:10   INFO [qa.projects.RozetkaPagesTests] : Browser was closed
+2023-09-06 21:40:09   INFO [qa.projects.RozetkaPagesTests] : Browser was opened
+2023-09-06 21:40:14   INFO [qa.projects.pages.BasePage] : Login Page was opened
+2023-09-06 21:40:33   INFO [qa.projects.RozetkaPagesTests] : Browser was closed
+2023-09-06 21:40:38   INFO [qa.projects.RozetkaPagesTests] : Browser was opened
+2023-09-06 21:40:41   INFO [qa.projects.pages.CatalogPage] : Login Page was opened
+2023-09-06 21:40:43   INFO [qa.projects.RozetkaPagesTests] : Browser was closed
+2023-09-06 21:52:24   INFO [qa.projects.RozetkaPagesTests] : Browser was opened
+2023-09-06 21:52:30   INFO [qa.projects.pages.BasePage] : Login Page was opened
+2023-09-06 21:52:31   INFO [qa.projects.RozetkaPagesTests] : Browser was closed
+2023-09-06 21:53:59   INFO [qa.projects.RozetkaPagesTests] : Browser was opened
+2023-09-06 21:54:04   INFO [qa.projects.pages.BasePage] : Login Page was opened
+2023-09-06 21:54:05   INFO [qa.projects.RozetkaPagesTests] : Browser was closed
+2023-09-06 22:00:19   INFO [qa.projects.RozetkaPagesTests] : Browser was opened
+2023-09-06 22:00:24   INFO [qa.projects.pages.BasePage] : Login Page was opened
+2023-09-06 22:00:27   INFO [qa.projects.RozetkaPagesTests] : Browser was closed
+2023-09-06 22:05:28   INFO [qa.projects.RozetkaPagesTests] : Browser was opened
+2023-09-06 22:05:33   INFO [qa.projects.pages.BasePage] : Login Page was opened
+2023-09-06 22:05:34   INFO [qa.projects.RozetkaPagesTests] : Browser was closed
+2023-09-06 22:15:53   INFO [qa.projects.RozetkaPagesTests] : Browser was opened
+2023-09-06 22:16:00  ERROR [qa.projects.pages.BasePage] : Can not open Login page
+2023-09-06 22:16:01   INFO [qa.projects.RozetkaPagesTests] : Browser was closed
+2023-09-06 22:16:52   INFO [qa.projects.RozetkaPagesTests] : Browser was opened
+2023-09-06 22:16:55   INFO [qa.projects.pages.BasePage] : Login Page was opened
+2023-09-06 22:16:56   INFO [qa.projects.RozetkaPagesTests] : Browser was closed
+2023-09-06 22:20:41   INFO [qa.projects.RozetkaPagesTests] : Browser was opened
+2023-09-06 22:20:48   INFO [qa.projects.pages.BasePage] : Login Page was opened
+2023-09-06 22:20:50   INFO [qa.projects.RozetkaPagesTests] : Browser was closed
+2023-09-06 22:21:18   INFO [qa.projects.RozetkaPagesTests] : Browser was opened
+2023-09-06 22:21:21   INFO [qa.projects.pages.BasePage] : Login Page was opened
+2023-09-06 22:21:24   INFO [qa.projects.RozetkaPagesTests] : Browser was closed
