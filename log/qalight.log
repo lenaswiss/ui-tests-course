@@ -86,3 +86,6 @@
 2023-09-06 22:21:18   INFO [qa.projects.RozetkaPagesTests] : Browser was opened
 2023-09-06 22:21:21   INFO [qa.projects.pages.BasePage] : Login Page was opened
 2023-09-06 22:21:24   INFO [qa.projects.RozetkaPagesTests] : Browser was closed
+2023-13-06 09:08:33   INFO [qa.projects.RozetkaTests] : Browser was opened
+2023-13-06 09:17:46   INFO [qa.projects.RozetkaTests] : Browser was opened
+2023-13-06 10:17:26   INFO [qa.projects.RozetkaTests] : Browser was opened

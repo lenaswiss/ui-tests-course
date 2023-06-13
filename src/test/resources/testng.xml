@@ -4,6 +4,7 @@
     <test name="Regression1">
         <classes>
             <class name="qa.projects.RozetkaTests"/>
+            <class name="qa.projects.CartTests"/>
         </classes>
     </test>
 </suite>

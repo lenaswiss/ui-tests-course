@@ -10,8 +10,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import qa.projects.pages.CatalogPage;
-import qa.projects.pages.PageBase;
-import qa.projects.pages.PageCatalog;
+import qa.projects.pages.BasePage;
 
 
 import static com.codeborne.selenide.Selenide.*;
@@ -28,9 +27,9 @@ public class RozetkaStartTest {
 
     @Test
     public void CatalogTest2() {
-        PageBase.clickOnCatalogButton();
-        PageCatalog.catalogModel.shouldBe(Condition.visible);
-        PageCatalog.subCategories.shouldHave(CollectionCondition.size(15));
+        BasePage.clickOnCatalogButton();
+        CatalogPage.catalogModel.shouldBe(Condition.visible);
+        CatalogPage.subCategories.shouldHave(CollectionCondition.size(15));
     }
 
     @Test
@@ -40,9 +39,9 @@ public class RozetkaStartTest {
 
     @Test
     public void CatalogTest() {
-        PageBase.clickOnCatalogButton();
-        PageCatalog.catalogModel.shouldBe(Condition.visible);
-        PageCatalog.categories.shouldHave(CollectionCondition.size(17));
+        BasePage.clickOnCatalogButton();
+        CatalogPage.catalogModel.shouldBe(Condition.visible);
+        CatalogPage.categories.shouldHave(CollectionCondition.size(17));
     }
 
     @Test

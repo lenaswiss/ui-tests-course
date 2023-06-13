@@ -2,14 +2,10 @@ package qa.projects;
 
 
 import org.junit.Test;
-import org.openqa.selenium.By;
-import org.testng.Assert;
-import qa.projects.basetest.BaseTest;
-
-import java.io.IOError;
+import qa.projects.basetest.BaseTestSelenium;
 import java.io.IOException;
 
-public class RozetkaPagesTests extends BaseTest {
+public class RozetkaPagesTests extends BaseTestSelenium {
 
     @Test
     public void searchCategory() throws IOException, InterruptedException {

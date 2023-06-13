@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="111.783" tests="9" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/lena/Documents/Java/ui-test/target/test-classes:/Users/lena/Documents/Java/ui-test/target/classes:/Users/lena/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/lena/.m2/repository/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar:/Users/lena/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/lena/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/lena/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/lena/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/lena/.m2/repository/org/seleniumhq/selenium/selenium-java/4.9.1/selenium-java-4.9.1.jar:/Users/lena/.m2/repository/org/seleniumhq/selenium/selenium-api/4.9.1/selenium-api-4.9.1.jar:/Users/lena/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.9.1/selenium-chrome-driver-4.9.1.jar:/Users/lena/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.9.1/selenium-chromium-driver-4.9.1.jar:/Users/lena/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.9.1/selenium-manager-4.9.1.jar:/Users/lena/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v111/4.9.1/selenium-devtools-v111-4.9.1.jar:/Users/lena/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v112/4.9.1/selenium-devtools-v112-4.9.1.jar:/Users/lena/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v113/4.9.1/selenium-devtools-v113-4.9.1.jar:/Users/lena/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.9.1/selenium-devtools-v85-4.9.1.jar:/Users/lena/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.9.1/selenium-edge-driver-4.9.1.jar:/Users/lena/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.9.1/selenium-firefox-driver-4.9.1.jar:/Users/lena/.m2/repository/org/seleniumhq/selenium/selenium-http/4.9.1/selenium-http-4.9.1.jar:/Users/lena/.m2/repository/dev/failsafe/failsafe/3.3.1/failsafe-3.3.1.jar:/Users/lena/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.9.1/selenium-ie-driver-4.9.1.jar:/Users/lena/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.9.1/selenium-remote-driver-4.9.1.jar:/Users/lena/.m2/repository/io/netty/netty-buffer/4.1.91.Final/netty-buffer-4.1.91.Final.jar:/Users/lena/.m2/repository/io/netty/netty-codec-http/4.1.91.Final/netty-codec-http-4.1.91.Final.jar:/Users/lena/.m2/repository/io/netty/netty-codec/4.1.91.Final/netty-codec-4.1.91.Final.jar:/Users/lena/.m2/repository/io/netty/netty-handler/4.1.91.Final/netty-handler-4.1.91.Final.jar:/Users/lena/.m2/repository/io/netty/netty-common/4.1.91.Final/netty-common-4.1.91.Final.jar:/Users/lena/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.91.Final/netty-transport-classes-epoll-4.1.91.Final.jar:/Users/lena/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.91.Final/netty-transport-classes-kqueue-4.1.91.Final.jar:/Users/lena/.m2/repository/io/netty/netty-transport-native-epoll/4.1.91.Final/netty-transport-native-epoll-4.1.91.Final.jar:/Users/lena/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.91.Final/netty-transport-native-kqueue-4.1.91.Final.jar:/Users/lena/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.91.Final/netty-transport-native-unix-common-4.1.91.Final.jar:/Users/lena/.m2/repository/io/netty/netty-transport/4.1.91.Final/netty-transport-4.1.91.Final.jar:/Users/lena/.m2/repository/io/netty/netty-resolver/4.1.91.Final/netty-resolver-4.1.91.Final.jar:/Users/lena/.m2/repository/io/opentelemetry/opentelemetry-api/1.25.0/opentelemetry-api-1.25.0.jar:/Users/lena/.m2/repository/io/opentelemetry/opentelemetry-context/1.25.0/opentelemetry-context-1.25.0.jar:/Users/lena/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.25.0/opentelemetry-exporter-logging-1.25.0.jar:/Users/lena/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.25.0/opentelemetry-sdk-metrics-1.25.0.jar:/Users/lena/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.25.0-alpha/opentelemetry-sdk-logs-1.25.0-alpha.jar:/Users/lena/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.25.0-alpha/opentelemetry-api-logs-1.25.0-alpha.jar:/Users/lena/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.25.0-alpha/opentelemetry-api-events-1.25.0-alpha.jar:/Users/lena/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.25.0/opentelemetry-sdk-common-1.25.0.jar:/Users/lena/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.25.0/opentelemetry-sdk-extension-autoconfigure-spi-1.25.0.jar:/Users/lena/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.25.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.25.0-alpha.jar:/Users/lena/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.25.0/opentelemetry-sdk-trace-1.25.0.jar:/Users/lena/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.25.0/opentelemetry-sdk-1.25.0.jar:/Users/lena/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/lena/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/lena/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/lena/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/lena/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/lena/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/lena/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/lena/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/lena/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/lena/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/lena/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/lena/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/lena/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.9.1/selenium-safari-driver-4.9.1.jar:/Users/lena/.m2/repository/com/codeborne/selenide/6.15.0/selenide-6.15.0.jar:/Users/lena/.m2/repository/com/codeborne/selenide-core/6.15.0/selenide-core-6.15.0.jar:/Users/lena/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/lena/.m2/repository/io/github/bonigarcia/webdrivermanager/5.3.3/webdrivermanager-5.3.3.jar:/Users/lena/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/lena/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/lena/.m2/repository/org/apache/commons/commons-compress/1.23.0/commons-compress-1.23.0.jar:/Users/lena/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/lena/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/lena/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/lena/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/lena/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/lena/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/lena/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/lena/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/lena/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/lena/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/lena/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/lena/.m2/repository/commons-io/commons-io/2.12.0/commons-io-2.12.0.jar:/Users/lena/.m2/repository/org/aeonbits/owner/owner/1.0.12/owner-1.0.12.jar:/Users/lena/.m2/repository/org/seleniumhq/selenium/selenium-support/4.9.1/selenium-support-4.9.1.jar:/Users/lena/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/lena/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/lena/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/lena/.m2/repository/net/bytebuddy/byte-buddy/1.14.4/byte-buddy-1.14.4.jar:/Users/lena/.m2/repository/org/seleniumhq/selenium/selenium-json/4.9.1/selenium-json-4.9.1.jar:/Users/lena/.m2/repository/ru/yandex/qatools/htmlelements/htmlelements-java/1.20.0/htmlelements-java-1.20.0.jar:/Users/lena/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/lena/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/lena/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/lena/.m2/repository/org/apache/cassandra/cassandra-all/0.8.1/cassandra-all-0.8.1.jar:/Users/lena/.m2/repository/commons-cli/commons-cli/1.1/commons-cli-1.1.jar:/Users/lena/.m2/repository/commons-codec/commons-codec/1.2/commons-codec-1.2.jar:/Users/lena/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/lena/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/Users/lena/.m2/repository/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.1/concurrentlinkedhashmap-lru-1.1.jar:/Users/lena/.m2/repository/org/antlr/antlr/3.2/antlr-3.2.jar:/Users/lena/.m2/repository/org/antlr/antlr-runtime/3.2/antlr-runtime-3.2.jar:/Users/lena/.m2/repository/org/antlr/stringtemplate/3.2/stringtemplate-3.2.jar:/Users/lena/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/Users/lena/.m2/repository/org/apache/cassandra/deps/avro/1.4.0-cassandra-1/avro-1.4.0-cassandra-1.jar:/Users/lena/.m2/repository/org/mortbay/jetty/jetty/6.1.22/jetty-6.1.22.jar:/Users/lena/.m2/repository/org/mortbay/jetty/jetty-util/6.1.22/jetty-util-6.1.22.jar:/Users/lena/.m2/repository/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211.jar:/Users/lena/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.4.0/jackson-core-asl-1.4.0.jar:/Users/lena/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.4.0/jackson-mapper-asl-1.4.0.jar:/Users/lena/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar:/Users/lena/.m2/repository/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar:/Users/lena/.m2/repository/com/github/stephenc/high-scale-lib/high-scale-lib/1.1.2/high-scale-lib-1.1.2.jar:/Users/lena/.m2/repository/org/yaml/snakeyaml/1.6/snakeyaml-1.6.jar:/Users/lena/.m2/repository/org/apache/thrift/libthrift/0.6.1/libthrift-0.6.1.jar:/Users/lena/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/Users/lena/.m2/repository/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.jar:/Users/lena/.m2/repository/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar:/Users/lena/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/lena/.m2/repository/org/apache/cassandra/cassandra-thrift/0.8.1/cassandra-thrift-0.8.1.jar:/Users/lena/.m2/repository/com/github/stephenc/jamm/0.2.2/jamm-0.2.2.jar:"/>
+    <property name="webdriver.geckodriver.driver" value="/Users/lena/Documents/Java/ui-test/drivers"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Europe/Zurich"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/Users/lena/.sdkman/candidates/java/11.0.10.9.1-amzn/lib"/>
+    <property name="sun.java.command" value="/Users/lena/Documents/Java/ui-test/target/surefire/surefirebooter-20230613101715766_3.jar /Users/lena/Documents/Java/ui-test/target/surefire 2023-06-13T10-17-14_776-jvmRun1 surefire-20230613101715766_1tmp surefire_0-20230613101715766_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/lena/Documents/Java/ui-test/target/test-classes:/Users/lena/Documents/Java/ui-test/target/classes:/Users/lena/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/lena/.m2/repository/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar:/Users/lena/.m2/repository/org/testng/testng/7.8.0/testng-7.8.0.jar:/Users/lena/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/lena/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/lena/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/lena/.m2/repository/org/seleniumhq/selenium/selenium-java/4.9.1/selenium-java-4.9.1.jar:/Users/lena/.m2/repository/org/seleniumhq/selenium/selenium-api/4.9.1/selenium-api-4.9.1.jar:/Users/lena/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.9.1/selenium-chrome-driver-4.9.1.jar:/Users/lena/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.9.1/selenium-chromium-driver-4.9.1.jar:/Users/lena/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.9.1/selenium-manager-4.9.1.jar:/Users/lena/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v111/4.9.1/selenium-devtools-v111-4.9.1.jar:/Users/lena/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v112/4.9.1/selenium-devtools-v112-4.9.1.jar:/Users/lena/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v113/4.9.1/selenium-devtools-v113-4.9.1.jar:/Users/lena/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.9.1/selenium-devtools-v85-4.9.1.jar:/Users/lena/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.9.1/selenium-edge-driver-4.9.1.jar:/Users/lena/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.9.1/selenium-firefox-driver-4.9.1.jar:/Users/lena/.m2/repository/org/seleniumhq/selenium/selenium-http/4.9.1/selenium-http-4.9.1.jar:/Users/lena/.m2/repository/dev/failsafe/failsafe/3.3.1/failsafe-3.3.1.jar:/Users/lena/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.9.1/selenium-ie-driver-4.9.1.jar:/Users/lena/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.9.1/selenium-remote-driver-4.9.1.jar:/Users/lena/.m2/repository/io/netty/netty-buffer/4.1.91.Final/netty-buffer-4.1.91.Final.jar:/Users/lena/.m2/repository/io/netty/netty-codec-http/4.1.91.Final/netty-codec-http-4.1.91.Final.jar:/Users/lena/.m2/repository/io/netty/netty-codec/4.1.91.Final/netty-codec-4.1.91.Final.jar:/Users/lena/.m2/repository/io/netty/netty-handler/4.1.91.Final/netty-handler-4.1.91.Final.jar:/Users/lena/.m2/repository/io/netty/netty-common/4.1.91.Final/netty-common-4.1.91.Final.jar:/Users/lena/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.91.Final/netty-transport-classes-epoll-4.1.91.Final.jar:/Users/lena/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.91.Final/netty-transport-classes-kqueue-4.1.91.Final.jar:/Users/lena/.m2/repository/io/netty/netty-transport-native-epoll/4.1.91.Final/netty-transport-native-epoll-4.1.91.Final.jar:/Users/lena/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.91.Final/netty-transport-native-kqueue-4.1.91.Final.jar:/Users/lena/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.91.Final/netty-transport-native-unix-common-4.1.91.Final.jar:/Users/lena/.m2/repository/io/netty/netty-transport/4.1.91.Final/netty-transport-4.1.91.Final.jar:/Users/lena/.m2/repository/io/netty/netty-resolver/4.1.91.Final/netty-resolver-4.1.91.Final.jar:/Users/lena/.m2/repository/io/opentelemetry/opentelemetry-api/1.25.0/opentelemetry-api-1.25.0.jar:/Users/lena/.m2/repository/io/opentelemetry/opentelemetry-context/1.25.0/opentelemetry-context-1.25.0.jar:/Users/lena/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.25.0/opentelemetry-exporter-logging-1.25.0.jar:/Users/lena/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.25.0/opentelemetry-sdk-metrics-1.25.0.jar:/Users/lena/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.25.0-alpha/opentelemetry-sdk-logs-1.25.0-alpha.jar:/Users/lena/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.25.0-alpha/opentelemetry-api-logs-1.25.0-alpha.jar:/Users/lena/.m2/repository/io/opentelemetry/opentelemetry-api-events/1.25.0-alpha/opentelemetry-api-events-1.25.0-alpha.jar:/Users/lena/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.25.0/opentelemetry-sdk-common-1.25.0.jar:/Users/lena/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.25.0/opentelemetry-sdk-extension-autoconfigure-spi-1.25.0.jar:/Users/lena/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.25.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.25.0-alpha.jar:/Users/lena/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.25.0/opentelemetry-sdk-trace-1.25.0.jar:/Users/lena/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.25.0/opentelemetry-sdk-1.25.0.jar:/Users/lena/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/lena/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/lena/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/lena/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/lena/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/lena/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/lena/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/lena/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/lena/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/lena/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/lena/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/lena/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/lena/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.9.1/selenium-safari-driver-4.9.1.jar:/Users/lena/.m2/repository/com/codeborne/selenide/6.15.0/selenide-6.15.0.jar:/Users/lena/.m2/repository/com/codeborne/selenide-core/6.15.0/selenide-core-6.15.0.jar:/Users/lena/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/lena/.m2/repository/io/github/bonigarcia/webdrivermanager/5.3.3/webdrivermanager-5.3.3.jar:/Users/lena/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/lena/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/lena/.m2/repository/org/apache/commons/commons-compress/1.23.0/commons-compress-1.23.0.jar:/Users/lena/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/lena/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/lena/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/lena/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/lena/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/lena/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/lena/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/lena/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/lena/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/lena/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/lena/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/lena/.m2/repository/commons-io/commons-io/2.12.0/commons-io-2.12.0.jar:/Users/lena/.m2/repository/org/aeonbits/owner/owner/1.0.12/owner-1.0.12.jar:/Users/lena/.m2/repository/org/seleniumhq/selenium/selenium-support/4.9.1/selenium-support-4.9.1.jar:/Users/lena/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/lena/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/lena/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/lena/.m2/repository/net/bytebuddy/byte-buddy/1.14.4/byte-buddy-1.14.4.jar:/Users/lena/.m2/repository/org/seleniumhq/selenium/selenium-json/4.9.1/selenium-json-4.9.1.jar:/Users/lena/.m2/repository/ru/yandex/qatools/htmlelements/htmlelements-java/1.20.0/htmlelements-java-1.20.0.jar:/Users/lena/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/lena/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/lena/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/lena/.m2/repository/org/apache/cassandra/cassandra-all/0.8.1/cassandra-all-0.8.1.jar:/Users/lena/.m2/repository/commons-cli/commons-cli/1.1/commons-cli-1.1.jar:/Users/lena/.m2/repository/commons-codec/commons-codec/1.2/commons-codec-1.2.jar:/Users/lena/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/lena/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/Users/lena/.m2/repository/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.1/concurrentlinkedhashmap-lru-1.1.jar:/Users/lena/.m2/repository/org/antlr/antlr/3.2/antlr-3.2.jar:/Users/lena/.m2/repository/org/antlr/antlr-runtime/3.2/antlr-runtime-3.2.jar:/Users/lena/.m2/repository/org/antlr/stringtemplate/3.2/stringtemplate-3.2.jar:/Users/lena/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/Users/lena/.m2/repository/org/apache/cassandra/deps/avro/1.4.0-cassandra-1/avro-1.4.0-cassandra-1.jar:/Users/lena/.m2/repository/org/mortbay/jetty/jetty/6.1.22/jetty-6.1.22.jar:/Users/lena/.m2/repository/org/mortbay/jetty/jetty-util/6.1.22/jetty-util-6.1.22.jar:/Users/lena/.m2/repository/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211.jar:/Users/lena/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.4.0/jackson-core-asl-1.4.0.jar:/Users/lena/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.4.0/jackson-mapper-asl-1.4.0.jar:/Users/lena/.m2/repository/jline/jline/0.9.94/jline-0.9.94.jar:/Users/lena/.m2/repository/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar:/Users/lena/.m2/repository/com/github/stephenc/high-scale-lib/high-scale-lib/1.1.2/high-scale-lib-1.1.2.jar:/Users/lena/.m2/repository/org/yaml/snakeyaml/1.6/snakeyaml-1.6.jar:/Users/lena/.m2/repository/org/apache/thrift/libthrift/0.6.1/libthrift-0.6.1.jar:/Users/lena/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/Users/lena/.m2/repository/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.jar:/Users/lena/.m2/repository/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar:/Users/lena/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/lena/.m2/repository/org/apache/cassandra/cassandra-thrift/0.8.1/cassandra-thrift-0.8.1.jar:/Users/lena/.m2/repository/com/github/stephenc/jamm/0.2.2/jamm-0.2.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/lena"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="/Users/lena/.sdkman/candidates/java/11.0.10.9.1-amzn"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/lena/Documents/Java/ui-test"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/lena/Documents/Java/ui-test/target/surefire/surefirebooter-20230613101715766_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.10+9-LTS"/>
+    <property name="user.name" value="lena"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-11.0.10.9.1"/>
+    <property name="localRepository" value="/Users/lena/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/"/>
+    <property name="java.io.tmpdir" value="/var/folders/xf/5y9nd7l54yq8vfd060dysq7r0000gp/T/"/>
+    <property name="java.version" value="11.0.10"/>
+    <property name="user.dir" value="/Users/lena/Documents/Java/ui-test"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/lena/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="11.0.10+9-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="CatalogTest" classname="qa.projects.RozetkaTests" time="4.052">
+    <system-out><![CDATA[2023-13-06 10:17:26   INFO [        RozetkaTests:29  ] : Browser was opened
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Jun 13, 2023 10:17:18 AM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+1686644241109	geckodriver	INFO	Listening on 127.0.0.1:25773
+1686644241564	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... //[::1]:2319/" "-foreground" "-no-remote" "-profile" "/var/folders/xf/5y9nd7l54yq8vfd060dysq7r0000gp/T/rust_mozprofileK4lShX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686644242599	Marionette	INFO	Marionette enabled
+1686644242938	Marionette	INFO	Listening on port 54199
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-origins\n"
+Read port: 54199
+2023-06-13 10:17:23.140 plugin-container[86521:15414961] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-06-13 10:17:23.140 plugin-container[86521:15414961] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://127.0.0.1:2319
+2023-06-13 10:17:23.203 plugin-container[86521:15414961] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-06-13 10:17:23.204 plugin-container[86521:15414961] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-06-13 10:17:23.205 plugin-container[86521:15414959] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-06-13 10:17:23.205 plugin-container[86521:15414959] nil host 1u686644243252	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+sed in call to allowsAnyHTTPSCertificateForHost:
+DevTools listening on ws://127.0.0.1:2319/devtools/browser/fce527f0-d3f3-4191-b2cb-cd6383787b73
+JavaScript error: https://static.hotjar.com/c/hotjar-3494164.js?sv=6, line 3: TypeError: window._hjSettings is undefined
+1686644255283	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:221:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:205:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:424:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+]]></system-err>
+  </testcase>
+  <testcase name="CatalogTest2" classname="qa.projects.RozetkaTests" time="0.406"/>
+  <testcase name="baseCatalogTest" classname="qa.projects.RozetkaTests" time="0.09"/>
+  <testcase name="searchCategory" classname="qa.projects.RozetkaTests" time="4.287">
+    <system-err><![CDATA[console.warn: LoginRecipes: "Falling back to a synchronous message for: https://rozetka.com.ua."
+]]></system-err>
+  </testcase>
+  <testcase name="addingToCartTest" classname="qa.projects.CartTests" time="14.769">
+    <system-err><![CDATA[1686644261325	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:54549
+1686644261333	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1686644261474	Marionette	INFO	Stopped listening on port 54199
+Jun 13, 2023 10:17:43 AM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+1686644264204	geckodriver	INFO	Listening on 127.0.0.1:33021
+1686644264291	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... /[::1]:45058/" "-foreground" "-no-remote" "-profile" "/var/folders/xf/5y9nd7l54yq8vfd060dysq7r0000gp/T/rust_mozprofileYwQvie"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686644265015	Marionette	INFO	Marionette enabled
+1686644265229	Marionette	INFO	Listening on port 54596
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-origins\n"
+Read port: 54596
+2023-06-13 10:17:45.378 plugin-container[86551:15416022] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-06-13 10:17:45.379 plugin-container[86551:15416022] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-06-13 10:17:45.389 plugin-container[86551:15416022] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-06-13 10:17:45.389 plugin-container[86551:15416022] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-06-13 10:17:45.391 plugin-container[86551:15416025] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-06-13 10:17:45.391 plugin-container[86551:15416025] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://127.0.0.1:45058
+1686644265662	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:45058/devtools/browser/5954eeef-220a-442c-a4ef-db03e9dd747c
+JavaScript error: https://static.hotjar.com/c/hotjar-3494164.js?sv=6, line 3: TypeError: window._hjSettings is undefined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://rozetka.com.ua."
+JavaScript error: https://api-analytics.rozetka.com.ua/js/exponea.min.js line 47 > Function, line 82: ReferenceError: None is not defined
+]]></system-err>
+  </testcase>
+  <testcase name="compareItemsPriceTest" classname="qa.projects.CartTests" time="11.384">
+    <system-err><![CDATA[1686644285406	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:54988
+1686644285408	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1686644285425	Marionette	INFO	Stopped listening on port 54596
+Jun 13, 2023 10:18:06 AM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+1686644286577	geckodriver	INFO	Listening on 127.0.0.1:13411
+1686644286644	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... /[::1]:46949/" "-foreground" "-no-remote" "-profile" "/var/folders/xf/5y9nd7l54yq8vfd060dysq7r0000gp/T/rust_mozprofile0qe0ZC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686644287335	Marionette	INFO	Marionette enabled
+1686644287589	Marionette	INFO	Listening on port 55011
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-origins\n"
+Read port: 55011
+2023-06-13 10:18:07.871 plugin-container[86581:15417170] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-06-13 10:18:07.873 plugin-container[86581:15417170] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-06-13 10:18:07.885 plugin-container[86581:15417170] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-06-13 10:18:07.885 plugin-container[86581:15417170] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-06-13 10:18:07.888 plugin-container[86581:15417175] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-06-13 10:18:07.888 plugin-container[86581:15417175] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://127.0.0.1:46949
+1686644288132	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:46949/devtools/browser/6cd85f78-efd1-4180-ad7a-d1fa9680cbaf
+JavaScript error: https://static.hotjar.com/c/hotjar-3494164.js?sv=6, line 3: TypeError: window._hjSettings is undefined
+]]></system-err>
+  </testcase>
+  <testcase name="productImagesSizeTest" classname="qa.projects.CartTests" time="8.211">
+    <system-out><![CDATA[(160, 211)
+https://content1.rozetka.com.ua/goods/images/big_tile/221026603.jpg
+]]></system-out>
+    <system-err><![CDATA[1686644304474	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:55305
+1686644304478	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1686644304511	Marionette	INFO	Stopped listening on port 55011
+Jun 13, 2023 10:18:25 AM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+1686644305873	geckodriver	INFO	Listening on 127.0.0.1:12408
+1686644305937	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... /[::1]:13582/" "-foreground" "-no-remote" "-profile" "/var/folders/xf/5y9nd7l54yq8vfd060dysq7r0000gp/T/rust_mozprofile588odA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686644306618	Marionette	INFO	Marionette enabled
+1686644306814	Marionette	INFO	Listening on port 55347
+Read port: 55347
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-origins\n"
+2023-06-13 10:18:26.981 plugin-container[86605:15418071] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-06-13 10:18:26.982 plugin-container[86605:15418071] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-06-13 10:18:27.010 plugin-container[86605:15418071] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-06-13 10:18:27.010 plugin-container[86605:15418071] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-06-13 10:18:27.011 plugin-container[86605:15418069] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-06-13 10:18:27.011 plugin-container[86605:15418069] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://127.0.0.1:13582
+1686644307211	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:13582/devtools/browser/a793f85b-266d-4079-8fff-3b6559185ac8
+JavaScript error: https://static.hotjar.com/c/hotjar-3494164.js?sv=6, line 3: TypeError: window._hjSettings is undefined
+JavaScript error: https://api-analytics.rozetka.com.ua/js/exponea.min.js line 47 > Function, line 82: ReferenceError: None is not defined
+]]></system-err>
+  </testcase>
+  <testcase name="searchOfItemsUsingEnterTest" classname="qa.projects.CartTests" time="8.693">
+    <system-err><![CDATA[1686644319608	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:55646
+1686644319612	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1686644319629	Marionette	INFO	Stopped listening on port 55347
+Jun 13, 2023 10:18:40 AM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+1686644320917	geckodriver	INFO	Listening on 127.0.0.1:47207
+1686644320979	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... //[::1]:9045/" "-foreground" "-no-remote" "-profile" "/var/folders/xf/5y9nd7l54yq8vfd060dysq7r0000gp/T/rust_mozprofileLOOhBR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686644321691	Marionette	INFO	Marionette enabled
+1686644321920	Marionette	INFO	Listening on port 55678
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-origins\n"
+Read port: 55678
+2023-06-13 10:18:42.117 plugin-container[86630:15418968] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-06-13 10:18:42.118 plugin-container[86630:15418968] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-06-13 10:18:42.125 plugin-container[86630:15418968] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-06-13 10:18:42.125 plugin-container[86630:15418968] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-06-13 10:18:42.126 plugin-container[86630:15418966] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-06-13 10:18:42.126 plugin-container[86630:15418966] nil host used in call to allowsAnyHTTPSCertificateForHost:
+WebDriver BiDi listening on ws://127.0.0.1:9045
+1686644322348	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:9045/devtools/browser/8db6f43b-c845-4931-ab5b-ab552147ae75
+JavaScript error: https://static.hotjar.com/c/hotjar-3494164.js?sv=6, line 3: TypeError: window._hjSettings is undefined
+]]></system-err>
+  </testcase>
+  <testcase name="searchResultsValidationTest" classname="qa.projects.CartTests" time="5.201">
+    <system-err><![CDATA[1686644335002	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:55972
+1686644335006	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1686644335020	Marionette	INFO	Stopped listening on port 55678
+Jun 13, 2023 10:18:55 AM org.openqa.selenium.manager.SeleniumManager getDriverPath
+INFO: Applicable driver not found; attempting to install with Selenium Manager (Beta)
+1686644336177	geckodriver	INFO	Listening on 127.0.0.1:32217
+1686644336237	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... /[::1]:16848/" "-foreground" "-no-remote" "-profile" "/var/folders/xf/5y9nd7l54yq8vfd060dysq7r0000gp/T/rust_mozprofileSUHKX0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1686644336911	Marionette	INFO	Marionette enabled
+2023-06-13 10:18:57.229 plugin-container[86659:15419831] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-06-13 10:18:57.230 plugin-container[86659:15419831] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-06-13 10:18:57.238 plugin-container[86659:15419831] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-06-13 10:18:57.239 plugin-container[86659:15419831] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-06-13 10:18:57.241 plugin-container[86659:15419838] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-06-13 10:18:57.241 plugin-container[86659:15419838] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1686644337294	Marionette	INFO	Listening on port 56005
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+console.error: "Warning: unrecognized command line flag -remote-allow-origins\n"
+Read port: 56005
+WebDriver BiDi listening on ws://127.0.0.1:16848
+1686644337628	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:16848/devtools/browser/13af9268-36a7-4c7c-8785-cf4f1957f4cf
+JavaScript error: https://static.hotjar.com/c/hotjar-3494164.js?sv=6, line 3: TypeError: window._hjSettings is undefined
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://rozetka.com.ua."
+]]></system-err>
+  </testcase>
+</testsuite>
