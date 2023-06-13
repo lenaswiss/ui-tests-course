@@ -8,11 +8,9 @@ import org.testng.log4testng.Logger;
 import qa.projects.pages.AppleSearchPage;
 import qa.projects.pages.CatalogPage;
 import qa.projects.pages.FiltersSideBarPage;
-
 import static com.codeborne.selenide.Selenide.*;
 
 public class CartTests {
-    public Logger logger = Logger.getLogger(getClass());
 
     @BeforeMethod
     public void beforeMethod() throws InterruptedException {
@@ -35,7 +33,6 @@ public class CartTests {
      */
     @Test
     public void addingToCartTest() throws InterruptedException {
-        logger.error("Test cart test is started.");
         CatalogPage.clickCartIcon();
         Assert.assertTrue(CatalogPage.cartModal.isDisplayed(), "Modal is displayed");
         Assert.assertEquals(CatalogPage.emptyCart.text(), "Корзина пуста");
@@ -71,6 +68,7 @@ public class CartTests {
      * Click on the filter seller Rozetka.
      * Check, that number of result on the page reduced.
      */
+    // number of result equal to 7 for iPhone 13 and remains the same after seller Rozetka is applied.
     @Test
     public void searchOfItemsUsingEnterTest() throws InterruptedException {
         CatalogPage.searchInput.clear();
@@ -87,7 +85,6 @@ public class CartTests {
                 replace(")", "");
         Assert.assertTrue(Integer.parseInt(foundSecond) <= Integer.parseInt(foundFirst),
                 "Expected less or equal items found after filtering");
-        // number of result equal to 7 for iPhone 13 and remains the same after seller Rozetka is applied.
     }
 
     /**
