@@ -1,20 +1,18 @@
 package qa.projects;
 
-import com.codeborne.selenide.CollectionCondition;
-import com.codeborne.selenide.Configuration;
-import com.codeborne.selenide.WebDriverRunner;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import com.codeborne.selenide.*;
 import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.log4testng.Logger;
 import qa.projects.pages.AppleSearchPage;
 import qa.projects.pages.CatalogPage;
 import qa.projects.pages.FiltersSideBarPage;
 
 import static com.codeborne.selenide.Selenide.*;
 
-public class CartTests {
+public class SearchTests {
+
     @BeforeMethod
     public void beforeMethod() throws InterruptedException {
         WebDriverRunner.setWebDriver(new FirefoxDriver());
@@ -80,10 +78,12 @@ public class CartTests {
         Assert.assertTrue(webdriver().driver().getCurrentFrameUrl().contains("text=sapiens"),
                 "Filter ‘sapiens’ was not added");
         var foundFirst = FiltersSideBarPage.searchResultAll.getText().trim().
-                replaceAll("^\\(|\\)$", "");
+                replace("(", "").
+                replace(")", "");
         FiltersSideBarPage.sellerFilterSideBar.click();
         var foundSecond = FiltersSideBarPage.searchResultAll.getText().trim().
-                replaceAll("^\\(|\\)$", "");
+                replace("(", "").
+                replace(")", "");
         Assert.assertTrue(Integer.parseInt(foundSecond) <= Integer.parseInt(foundFirst),
                 "Expected less or equal items found after filtering");
     }
@@ -139,3 +139,4 @@ public class CartTests {
         closeWebDriver();
     }
 }
+

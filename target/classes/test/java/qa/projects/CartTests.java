@@ -1,10 +1,13 @@
 package qa.projects;
 
-import com.codeborne.selenide.*;
-import org.testng.Assert;
-import org.testng.annotations.*;
+import com.codeborne.selenide.CollectionCondition;
+import com.codeborne.selenide.Configuration;
+import com.codeborne.selenide.WebDriverRunner;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.log4testng.Logger;
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 import qa.projects.pages.AppleSearchPage;
 import qa.projects.pages.CatalogPage;
 import qa.projects.pages.FiltersSideBarPage;
@@ -12,8 +15,6 @@ import qa.projects.pages.FiltersSideBarPage;
 import static com.codeborne.selenide.Selenide.*;
 
 public class CartTests {
-    public Logger logger = Logger.getLogger(getClass());
-
     @BeforeMethod
     public void beforeMethod() throws InterruptedException {
         WebDriverRunner.setWebDriver(new FirefoxDriver());
@@ -35,7 +36,6 @@ public class CartTests {
      */
     @Test
     public void addingToCartTest() throws InterruptedException {
-        logger.error("Test cart test is started.");
         CatalogPage.clickCartIcon();
         Assert.assertTrue(CatalogPage.cartModal.isDisplayed(), "Modal is displayed");
         Assert.assertEquals(CatalogPage.emptyCart.text(), "Корзина пуста");
@@ -71,6 +71,7 @@ public class CartTests {
      * Click on the filter seller Rozetka.
      * Check, that number of result on the page reduced.
      */
+    // number of result equal to 7 for iPhone 13 and remains the same after seller Rozetka is applied.
     @Test
     public void searchOfItemsUsingEnterTest() throws InterruptedException {
         CatalogPage.searchInput.clear();
@@ -79,15 +80,12 @@ public class CartTests {
         Assert.assertTrue(webdriver().driver().getCurrentFrameUrl().contains("text=sapiens"),
                 "Filter ‘sapiens’ was not added");
         var foundFirst = FiltersSideBarPage.searchResultAll.getText().trim().
-                replace("(", "").
-                replace(")", "");
+                replaceAll("^\\(|\\)$", "");
         FiltersSideBarPage.sellerFilterSideBar.click();
         var foundSecond = FiltersSideBarPage.searchResultAll.getText().trim().
-                replace("(", "").
-                replace(")", "");
+                replaceAll("^\\(|\\)$", "");
         Assert.assertTrue(Integer.parseInt(foundSecond) <= Integer.parseInt(foundFirst),
                 "Expected less or equal items found after filtering");
-        // number of result equal to 7 for iPhone 13 and remains the same after seller Rozetka is applied.
     }
 
     /**
