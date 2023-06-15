@@ -9,6 +9,8 @@
 !testmodules
 !selenoid
 *.log
+*.html
+*.png
 *.iml
 *.ipr
 *.iws

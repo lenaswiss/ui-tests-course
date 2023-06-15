@@ -74,7 +74,6 @@ public class CartTests {
     // number of result equal to 7 for iPhone 13 and remains the same after seller Rozetka is applied.
     @Test
     public void searchOfItemsUsingEnterTest() throws InterruptedException {
-        CatalogPage.searchInput.clear();
         CatalogPage.searchItemUsingEnter("sapiens");
         FiltersSideBarPage.pageIsLoaded();
         Assert.assertTrue(webdriver().driver().getCurrentFrameUrl().contains("text=sapiens"),
@@ -103,8 +102,6 @@ public class CartTests {
                 "Grid width does not match expected size");
         Assert.assertEquals(AppleSearchPage.gridImageSize.getSize().height, 211
                 , "Grid height does not match expected size");
-        System.out.println(AppleSearchPage.gridImageSize.getSize());
-        System.out.println(AppleSearchPage.bigTileImageSize.getAttribute("src"));
         open(AppleSearchPage.bigTileImageSize.getAttribute("src"));
         var bigTileHeight = $("img").getSize().height;
         var bigTileWeight = $("img").getSize().width;
