@@ -12,4 +12,5 @@ public class BasePage {
     public static void clickOnCatalogButton() {
         catalogButton.click();
     }
+
 }
